@@ -1,11 +1,28 @@
 # Glosario
 
+## Principios de Scrum (Scrum Principles)
+
+* Empirical Process Control
+* Self-organization
+* Collaboration
+* Value-based Prioritization
+* Time-boxing
+* Iterative Development
+
+## Equipo Scrum (Scrum Core Team) `SCT`
+
+6-10 miembros
+
+## Caso de Negocio del Proyecto
+
+Incluye el proposito del proyecto, resultado esperado y riesgos potenciales
+
 ## Reunión  de la Visión del Proyecto (Project Vision) `PV`
 
 Reunión con los `Stakeholders`, Propietario de Producto del Programa `PPO`, Scrum Master del Programa `PSM`, y Jefe Propietario de Producto `CPO`.
 
 ## Historias de Usuario (User Stories) `US`
-Los requerimientos del negocio
+Los requerimientos del negocio con el formato: Como _quién_ Quiero _qué_ Para _objetivo_.
 
 ## Proceso de Desarrollo de Épicas (Develop Epics) `DE`
 
@@ -29,6 +46,8 @@ Lista de tareas pendientes del Sprint
 
 ## Reunión Standup Diario (Daily Standup meeting) `DSM`
 
+15 minutos (Did, Will do, Can't do)
+
 ## Reuniones Scrum de Scrums `SoS`
 
 Como el Standup Diario considerando lo que afecta a otros equipos
@@ -39,7 +58,7 @@ Se utiliza para seguimiento del trabajo y de actividades que se llevan a cabo ti
 
 ## Registro de Retrospectiva del Sprint (Retrospect Sprint Backlog) `RSB`
 
-Se definen tres elementos específicos:
+Se definen tres elementos específicos (keep, start, stop) 4 horas por Sprint:
 * Las cosas que el equipo tiene que seguir haciendo: mejores prácticas
 * Las cosas que el equipo necesita empezar a hacer: mejoras en el proceso
 * Las cosas que el equipo necesita dejar de hacer: problemas de proceso y embotellamiento
@@ -60,6 +79,8 @@ Se definen tres elementos específicos:
 
 ## Propietario del Producto (Product Owner) `PO`
 
+Es la voz del cliente y responsable de crear la Lista Priorizada de Pendientes del Producto `Product PPB`
+
 ## Jefe Propietario del Producto (Chief Product Owner) `CPO`
 
 ## Propietario del Producto del Programa (Program Product Owner) `PPO`
@@ -68,7 +89,13 @@ Se definen tres elementos específicos:
 
 ## Registro de impedimentos (Impediment Log) `IL`
 
+## Reuniones de Planificación del Sprint (Sprint Planning Meeting) `SPM`
+
+8 horas por Sprint (4 semanas)
+
 ## Reuniones de Revisión del Sprint (Sprint Review Meetings) `SRM` 
+
+El equipo de Scrum muestra lo que se ha logrado realizar. Por lo general, esto se corresponde con una demo que incuye las nuevas características. Dura 4 horas por Sprint
 
 ## Análisis del Valor ganado (Earned Value Analysis) `EVA`
 
@@ -84,13 +111,19 @@ Los entregables que cumplen con los Criterios de Aceptación `DC` son aceptados 
 
 Si los entregables no cumplen con los Criterios de Aceptación `DC` son rechazados.
 
-# Calendario de Lanzamiento (Release Planning Schedule) `RPS`
+## Calendario de Lanzamiento (Release Planning Schedule) `RPS`
 
-# Acuerdo de entregables funcionales (Working Deliverables Agreement) `WDA`
+## Acuerdo de entregables funcionales (Working Deliverables Agreement) `WDA`
 
 Un acuerdo formal que documenta la finalización con éxito del Sprint
 
-# Acciones de Mejora Acordadas (Agreed Actionable Improvements) `AAI`
+## Acciones de Mejora Acordadas (Agreed Actionable Improvements) `AAI`
+
+## Reunión de Retrospectiva del Proyecto (Proyect Retrospective Meeting) `PRM`
+
+Como la del Sprint `RSB` pero para el proyecto
+
+## Desarrollo de capacidades con el Modelo Tuckman: formación, conflicto, normalización y desempeño (Forming, Storming, Norming, Performing)
 
 # FASES
 ## I. Iniciación
@@ -139,7 +172,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 
 ### 18. Envío de entregables (Ship Deliverables)
 
-### 19. Retrospectiva del proyecto (Retrospect Project)
+### 19. Retrospectiva del proyecto `PRM`
 
 # I. Iniciación
 
@@ -149,7 +182,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 * __Caso de Negocio del Proyecto__
 * Propietario de Producto del Programa `PPO`
 * Scrum Master del Programa `PSM`
-* Interesados (Stakeholders) del Programa
+* `Stakeholders` del Programa
 * Jefe Propietario del Producto `CPO`
 * Lista de Pendientes del Producto del Programa `Program PPB`
 * Proyecto de Prueba
@@ -253,7 +286,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 * Riesgos identificados `IR`
 * Prototipos
 
-## 5. Creación de la Lista Priorizada de Pendientes del Producto
+## 5. Creación de la Lista Priorizada de Pendientes del Producto `Product PPB`
 
 ### Entradas
 * __Equipo Scrum `SCT`__
@@ -340,7 +373,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 ### Salidas
 * __Historias de Usuario `US`__
 * __Criterios de Aceptación de Historias de Usuario `US`__
-* Lista Priorizada de Pendientes del Producto `Product PPB` actualizado
+* Lista Priorizada de Pendientes del Producto `Product PPB` _actualizado_
 * Personas actualizado o refinado
 
 ## 8. Aprobar, Estimar y Asignar Historias de Usuario `US`
@@ -418,7 +451,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 * Calendario del equipo
 
 ### Herramientas
-* __Reuniones de Planificación del Sprint__
+* __Reuniones de Planificación del Sprint `SPM`__
 * Herramientas de Seguimiento del Sprint
 * Métricas de Seguimiento del Sprint
 
@@ -558,7 +591,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Herramientas
-* __Reuniones de Revisión del Sprint `SRM`__
+* __Reuniones de Revisión del Sprint `RSB`__
 * Análisis del Valor ganado `EVA`
 * Experiencia del Cuerpo de Asesoramiento de SCRUM `SGB`
 
@@ -630,7 +663,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Herramientas
-* Reunión de Retrospectiva del Proyecto `RPM`
+* Reunión de Retrospectiva del Proyecto `PRM`
 * Experiencia del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Salidas
