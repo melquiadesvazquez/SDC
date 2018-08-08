@@ -280,7 +280,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 ## 2. Identificar al Scrum Master y `Stakeholders`
 
 ### Entradas
-* __Propietario del producto `PO`_
+* __Propietario del producto `PO`__
 * __Reunión de la Visión del Proyecto `PV`__
 * Propietario de Producto del Programa `PPO`
 * Scrum Master del Programa `PSM`
