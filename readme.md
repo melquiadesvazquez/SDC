@@ -1,6 +1,4 @@
-# Glosario
-
-## Principios de Scrum (Scrum Principles)
+# PRINCIPIOS
 
 * Empirical Process Control
 * Self-organization
@@ -9,28 +7,125 @@
 * Time-boxing
 * Iterative Development
 
+
+# ROLES
+
+## Stakeholders
+
+Aparecen en:
+
+* Todos los procesos de la fase I. Iniciación (1-6)
+* Todos los procesos de la fase V. Lanzamiento (18-19)
+* Un proceso de la fase I. Planificación y Estimación (7. Elaborar Historias de Usuario)
+
+## Scrum Master (Scrum Master) `SM`
+
+Mantiene el Registro de Impedimentos `IL`
+
+## Jefe Scrum Master (Chief Scrum Master) `CSM`
+
+Aparece en:
+
+* Proceso 2. Identificar al Scrum Master y `Stakeholders`
+* Proceso 15. Convocar Scrum de Scrums
+* Proceso 19. Retrospectiva del Proyecto `PRM`
+
+## Scrum Master del Programa (Program Scrum Master) `PSM`
+
+Aparece en:
+
+* Proceso 1. Crear la Visión del Proyecto (Salida)
+* Proceso 2. Identificar al Scrum Master y `Stakeholders`
+* Proceso 6. Realizar el Plan de Lanzamiento `RPS`
+
+## Propietario del Producto (Product Owner) `PO`
+
+* Es la voz del cliente y responsable de crear la Lista Priorizada de Pendientes del Producto `Product PPB`
+* Acepta o rechaza los Entregables del Sprint `SD` en la Reunión de Revisión del Sprint `SRM`__
+
+Aparece en:
+
+* Proceso 1. Crear la Visión del Proyecto (Salida)
+* Proceso 2. Identificar al Scrum Master y `Stakeholders`
+* Proceso 3. Formación del Equipo Scrum
+* Proceso 13. Llevar a cabo el Standup Diario `DSM`
+* Proceso 16. Demostración y Validación del Sprint `SRM`
+* Proceso 17. Retrospectiva del Sprint `RSM`
+* Proceso 18. Envío de Entregables `SD`
+
+## Jefe Propietario del Producto (Chief Product Owner) `CPO`
+
+Aparece en:
+
+* Proceso 1. Crear la Visión del Proyecto
+* Proceso 2. Identificar al Scrum Master y `Stakeholders`
+* Proceso 3. Formación del Equipo Scrum `SCT`
+* Proceso 6. Realizar el Plan de Lanzamiento `RPS`
+* Proceso 15. Convocar Scrum de Scrums
+* Proceso 19. Retrospectiva del Proyecto `PRM`
+
+## Propietario del Producto del Programa (Program Product Owner) `PPO`
+
+Aparece en:
+
+* Proceso 1. Crear la Visión del Proyecto
+* Proceso 2. Identificar al Scrum Master y `Stakeholders`
+* Proceso 6. Realizar el Plan de Lanzamiento `RPS`
+
 ## Equipo Scrum (Scrum Core Team) `SCT`
 
+Aparecen en todos los procesos a partir del 3. Formación del Equipo Scrum
 6-10 miembros
 
-## Caso de Negocio del Proyecto
 
-Incluye el proposito del proyecto, resultado esperado y riesgos potenciales
+# REUNIONES
 
 ## Reunión  de la Visión del Proyecto (Project Vision) `PV`
 
 Reunión con los `Stakeholders`, Propietario de Producto del Programa `PPO`, Scrum Master del Programa `PSM`, y Jefe Propietario de Producto `CPO`.
 
-## Historias de Usuario (User Stories) `US`
-Los requerimientos del negocio con el formato: Como _quién_ Quiero _qué_ Para _objetivo_.
-
-## Proceso de Desarrollo de Épicas (Develop Epics) `DE`
-
-Son Historias de Usuario `US` grandes sin refinar en la Lista Priorizada de Pendientes del Producto `Product PPB`.
-
 ## Reuniones de Grupo de Enfoque (Focus Group Meetings) `FGM`
 
 Un grupo pequeño de usuarios que ayudan a los desarrolladores a entender las necesidades relacionadas con un producto o servicio.
+
+## Reunión Standup Diario (Daily Standup meeting) `DSM`
+
+15 minutos (Did, Will do, Can't do)
+
+## Reuniones Scrum de Scrums `SoS`
+
+Como el Standup Diario pero considerando lo que afecta a otros equipos, con lo que mejora la coordinación
+
+## Reuniones de Planificación del Sprint (Sprint Planning Meeting) `SPM`
+
+8 horas por Sprint (4 semanas)
+
+## Reuniones de Revisión del Sprint (Sprint Review Meetings) `SRM` 
+
+El equipo de Scrum muestra lo que se ha logrado realizar. Por lo general, esto se corresponde con una demo que incuye las nuevas características. Dura 4 horas por Sprint
+
+## Reunión de Retrospectiva del Sprint (Retrospect Sprint Backlog) `RSM`
+
+Se definen tres elementos específicos (keep, start, stop) 4 horas por Sprint:
+
+* Las cosas que el equipo tiene que seguir haciendo: mejores prácticas
+* Las cosas que el equipo necesita empezar a hacer: mejoras en el proceso
+* Las cosas que el equipo necesita dejar de hacer: problemas de proceso y embotellamiento**
+
+## Reunión de Retrospectiva del Proyecto (Proyect Retrospective Meeting) `PRM`
+
+Como la del Sprint `RSM` pero para el proyecto
+
+
+# DOCUMENTOS
+
+## Caso de Negocio del Proyecto
+
+Incluye el proposito del proyecto, resultado esperado y riesgos potenciales
+
+## Scrumboard
+
+Se utiliza para seguimiento del trabajo y de actividades que se llevan a cabo tiene 5 columnas (Stories, To Do, In Progress, Testing, Done)
 
 ## Gráfica del Trabajo Pendiente del Sprint (Sprint Burndown Chart) `SBDC`
 
@@ -44,25 +139,6 @@ Gráfico que muestra el trabajo realizado del Sprint.
 
 Lista de tareas pendientes del Sprint
 
-## Reunión Standup Diario (Daily Standup meeting) `DSM`
-
-15 minutos (Did, Will do, Can't do)
-
-## Reuniones Scrum de Scrums `SoS`
-
-Como el Standup Diario considerando lo que afecta a otros equipos
-
-## Scrumboard
-
-Se utiliza para seguimiento del trabajo y de actividades que se llevan a cabo tiene 5 columnas (Stories, To Do, In Progress, Testing, Done)
-
-## Registro de Retrospectiva del Sprint (Retrospect Sprint Backlog) `RSB`
-
-Se definen tres elementos específicos (keep, start, stop) 4 horas por Sprint:
-* Las cosas que el equipo tiene que seguir haciendo: mejores prácticas
-* Las cosas que el equipo necesita empezar a hacer: mejoras en el proceso
-* Las cosas que el equipo necesita dejar de hacer: problemas de proceso y embotellamiento
-
 ## Calendario de Lanzamiento (Release Planning Schedule) `RPS`
 
 ## Lista de Pendientes del Producto del Programa (Prioritized Program Backlog) `Program PPB`
@@ -71,33 +147,34 @@ Se definen tres elementos específicos (keep, start, stop) 4 horas por Sprint:
 
 ## Lista de Pendientes del Sprint (Prioritized Sprint Backlog) `SB`
 
-## Scrum Master (Scrum Master) `SM`
-
-## Jefe Scrum Master (Chief Scrum Master) `CSM`
-
-## Scrum Master del Programa (Program Scrum Master) `PSM`
-
-## Propietario del Producto (Product Owner) `PO`
-
-Es la voz del cliente y responsable de crear la Lista Priorizada de Pendientes del Producto `Product PPB`
-
-## Jefe Propietario del Producto (Chief Product Owner) `CPO`
-
-## Propietario del Producto del Programa (Program Product Owner) `PPO`
-
-## Equipo Scrum (Scrum Core Team) `SCT`
-
 ## Registro de impedimentos (Impediment Log) `IL`
 
-## Reuniones de Planificación del Sprint (Sprint Planning Meeting) `SPM`
+## Entregables del Sprint (Sprint Deliverables) `SD`
 
-8 horas por Sprint (4 semanas)
+Se actualiza cuando:
 
-## Reuniones de Revisión del Sprint (Sprint Review Meetings) `SRM` 
+* Se crean los Entregables
+* Se realiza el Standup Diario  `DSM`
+* Se realiza la Revisión del Sprint  `SRM`
+* Se realiza la Scrum de Scrums  `SoS`
 
-El equipo de Scrum muestra lo que se ha logrado realizar. Por lo general, esto se corresponde con una demo que incuye las nuevas características. Dura 4 horas por Sprint
+## Historias de Usuario (User Stories) `US`
+
+Los requerimientos del negocio con el formato: Como _quién_ Quiero _qué_ Para _objetivo_.
+
+## Proceso de Desarrollo de Épicas (Develop Epics) `DE`
+
+Son Historias de Usuario `US` grandes sin refinar en la Lista Priorizada de Pendientes del Producto `Product PPB`.
 
 ## Análisis del Valor ganado (Earned Value Analysis) `EVA`
+
+Permite controla que el Proyecto se esté desarrollando como estaba planificado
+
+## Mapa de flujo de valor (Value Stream Map) `VSM`
+
+Permiten identificar ampliamente las actividades que no agregan valor al proceso, del mismo modo permiten conocer el tiempo asociado a dichas actividades
+
+## Diagrama de flujo acumulado (Cumulative Flow Diagram) `CFD`
 
 ## Riesgos identificados (Identified Risks) `IR`
 
@@ -111,19 +188,14 @@ Los entregables que cumplen con los Criterios de Aceptación `DC` son aceptados 
 
 Si los entregables no cumplen con los Criterios de Aceptación `DC` son rechazados.
 
-## Calendario de Lanzamiento (Release Planning Schedule) `RPS`
-
 ## Acuerdo de entregables funcionales (Working Deliverables Agreement) `WDA`
 
 Un acuerdo formal que documenta la finalización con éxito del Sprint
 
 ## Acciones de Mejora Acordadas (Agreed Actionable Improvements) `AAI`
 
-## Reunión de Retrospectiva del Proyecto (Proyect Retrospective Meeting) `PRM`
-
-Como la del Sprint `RSB` pero para el proyecto
-
 ## Desarrollo de capacidades con el Modelo Tuckman: formación, conflicto, normalización y desempeño (Forming, Storming, Norming, Performing)
+
 
 # FASES
 ## I. Iniciación
@@ -138,7 +210,7 @@ Como la del Sprint `RSB` pero para el proyecto
 
 ### 5. Creación de la Lista Priorizada de Pendientes del Producto `Product PPB`
 
-### 6. Realizar el plan de lanzamiento
+### 6. Realizar el plan de lanzamiento `RPS`
  
 ## II. Planificación y Estimación
 
@@ -162,17 +234,18 @@ Como la del Sprint `RSB` pero para el proyecto
 
 ## IV. Revisión y Retrospectiva
 
-### 15. Convocar Scrum de Scrums (Convene Scrum of Scrums)
+### 15. Convocar Scrum de Scrums `SoS`
 
-### 16. Demostración y validación del Sprint (Demonstrate and Validate Sprint)
+### 16. Demostración y validación del Sprint `SRM`
 
-### 17. Retrospectiva de Sprint (Retrospect Sprint)
+### 17. Retrospectiva del Sprint `RSM`
 
 ## V. Lanzamiento
 
-### 18. Envío de entregables (Ship Deliverables)
+### 18. Envío de entregables `SD`
 
 ### 19. Retrospectiva del proyecto `PRM`
+
 
 # I. Iniciación
 
@@ -199,19 +272,19 @@ Como la del Sprint `RSB` pero para el proyecto
 * Análisis de Brechas
 
 ### Salidas
-* __Identificación del Propietario del Producto__
+* __Identificación del Propietario del Producto `PO`__
 * __Reunión de la Visión del Proyecto `PV`__
 * Acta de Constitución del Proyecto
 * Presupuesto del Proyecto
 
-## 2. Identificar al Scrum Master y Stakeholders
+## 2. Identificar al Scrum Master y `Stakeholders`
 
 ### Entradas
-* __Propietario del producto__
+* __Propietario del producto `PO`_
 * __Reunión de la Visión del Proyecto `PV`__
 * Propietario de Producto del Programa `PPO`
 * Scrum Master del Programa `PSM`
-* Interesados del Programa
+* `Stakeholders` del Programa
 * Jefe Propietario del Producto `CPO`
 * Jefe Scrum Master `CSM`
 * Requisitos de Personal
@@ -226,16 +299,16 @@ Como la del Sprint `RSB` pero para el proyecto
 * Costes de los Recursos
 
 ### Salidas
-* __Identificación del Scrum Master__
-* __Identificación de Interesados (Stakeholders)__
+* __Identificación del Scrum Master `SM`__
+* __Identificación de `Stakeholders`__
 
 ## 3. Formación del Equipo Scrum
 
 ### Entradas
-* __Propietario del producto__
+* __Propietario del producto `PO`__
 * __Srum Master `SM`__
 * __Reunión de la Visión del Proyecto `PV`__
-* Jefe Propietario del Producto
+* Jefe Propietario del Producto `CPO`
 * Requisitos de Personal
 * Disponibilidad y compromiso de las personas
 * Matriz de Recursos Organizacionales
@@ -261,7 +334,7 @@ Como la del Sprint `RSB` pero para el proyecto
 ### Entradas
 * __Equipo Scrum `SCT`__
 * __Declaración de la Visión del Proyecto `PV`__
-* Interesados (Stakeholders)
+* `Stakeholders`
 * Solicitudes de Cambio Aprobados
 * Solicitudes de Cambio No Aprobados
 * Riesgos del Programa y Portafolio
@@ -292,7 +365,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Equipo Scrum `SCT`__
 * __Épicas__
 * __Personas__
-* Interesados (Stakeholders)
+* `Stakeholders`
 * Declaración de la Visión del Proyecto `PV`
 * Lista Priorizada de Pendientes del Producto `Product PPB`
 * Requerimientos del Negocio
@@ -319,11 +392,11 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Lista Priorizada de Pendientes del Producto `Product PPB`__
 * __Criterios de Terminado `DC`__
 
-## 6. Realizar el Plan de Lanzamiento
+## 6. Realizar el Plan de Lanzamiento `RPS`
 
 ### Entradas
 * __Equipo Scrum `SCT`__
-* __Interesados (Stakeholders)__
+* __`Stakeholders`__
 * __Declaración de la Visión del Proyecto__
 * __Lista Priorizada de Pendientes del Producto `Product PPB`__
 * __Criterios de Terminado `DC`__
@@ -353,7 +426,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Lista Priorizada de Pendientes del Producto `Product PPB`__
 * __Criterios de Terminado `DC`__
 * __Personas__
-* Interesados (Stakeholders)
+* `Stakeholders`
 * Épicas
 * Requerimientos del Negocio
 * Leyes y regulaciones
@@ -467,7 +540,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Equipo Scrum `SCT`__
 * __Lista de Pendientes del Sprint `SB`__
 * __Scrumboard__
-* __Registro de Impedimentos__
+* __Registro de Impedimentos `IL`__
 * Calendario de Lanzamiento `RPS`
 * Dependencias
 * Calendario del equipo
@@ -480,9 +553,9 @@ Como la del Sprint `RSB` pero para el proyecto
 * Experiencia del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Salidas
-* __Entregables del Sprint `SE`__
+* __Entregables del Sprint `SD`__
 * __Scrumboard _actualizado___
-* __Registro de Impedimentos _actualizado___
+* __Registro de Impedimentos `IL` _actualizado___
 * Cambios no aprovados
 * Riesgos identificados `IR`
 * Riesgos mitigados
@@ -495,7 +568,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Scrum Master `SM`__
 * __Gráfica del Trabajo Pendiente del Sprint `SBDC`__
 * __Registro de Impedimentos__
-* Propietario del producto
+* Propietario del producto `PO`
 * Experiencia del día anterior
 * Scrumboard
 * Dependencias
@@ -530,7 +603,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * Cambios no aprovados
 * Riesgos identificados `IR`
 * Lista Priorizada de Pendientes del Programa `Program PPB` _actualizada_
-* Registro de Retrospectiva del Sprint `RSB`
+* Registro de Retrospectiva del Sprint `RSM`
 * Dependencias _actualizadas_
 * Calendario de Lanzamiento `RPS`
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
@@ -555,7 +628,7 @@ Como la del Sprint `RSB` pero para el proyecto
 * Agenda de la Reunión
 * Registro de impedimentos `IL`
 * Dependencias
-* Conclusiones de la Retrospectiva del Sprint `RSB`
+* Conclusiones de la Retrospectiva del Sprint `RSM`
 
 ### Herramientas
 * __Reuniones Scrum de Scrums `SoS`__
@@ -576,39 +649,40 @@ Como la del Sprint `RSB` pero para el proyecto
 * Registro de impedimentos `IL` _actualizado_
 * Dependencias _actualizadas_
 
-## 16. Demostración y Validación del Sprint
+## 16. Demostración y Validación del Sprint `SRM`
 
 ### Entradas
 * __Equipo Scrum `SCT`__
-* __Entregables del Sprint `SE`__
+* __Entregables del Sprint `SD`__
 * __Lista de Pendientes del Sprint `SB`__
 * __Criterios de Terminado `DC`__
 * __Criterios de Aceptación de Historias de Usuario `US`__
-* Stake holder
+* Propietario del Producto `PO`
+* `Stakeholder`
 * Calendario de Lanzamiento `RPS`
 * Riesgos identificados `IR`
 * Dependencias
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Herramientas
-* __Reuniones de Revisión del Sprint `RSB`__
+* __Reuniones de Revisión del Sprint `SRM`__
 * Análisis del Valor ganado `EVA`
 * Experiencia del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Salidas
-* __Entregables Aceptados `AD`__
-* __Entregables Rechazados `RD`__
+* __Entregables Aceptados `SD`__
+* __Entregables Rechazados `SD`__
 * Riesgos identificados `IR` _actualizados_
 * Registro de impedimentos `IL` _actualizado_
 * Dependencias _actualizadas_
 
-## 17. Retrospectiva del Sprint
+## 17. Retrospectiva del Sprint `RSM`
 
 ### Entradas
 * __Equipo Scrum `SCT`__
 * __Propietario del Producto `PO`__
-* __Entregables Aceptados `AD`__
-* __Entregables Rechazados `RD`__
+* __Entregables Aceptados `SD`__
+* __Entregables Rechazados `SD`__
 * Riesgos identificados `IR`
 * Registro de impedimentos `IL`
 * Dependencias
@@ -626,18 +700,19 @@ Como la del Sprint `RSB` pero para el proyecto
 * __Acciones de Mejora Acordadas `AAI`__
 * __Elementos de Acción Acordados y Fechas__
 * Elementos no funcionales propuestos para la Lista Priorizada de Pendientes del Producto `Product PPB`
-* Registro de Retrospectiva del Sprint `RSB`
+* Registro de Retrospectiva del Sprint `RSM`
 * Lecciones aprendidas del Equipo scrum
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB` _actualizadas_
 
 # Fase V: Lanzamiento
 
-## 18. Envío de Entregables
+## 18. Envío de Entregables `SD`
 
 ### Entradas
+
 * __Propietario del Producto `PO`__
 * __`Stakeholders`__
-* __Entregables Aceptados `AD`__
+* __Entregables Aceptados `SD`__
 * __Calendario de Lanzamiento `RPS`__
 * Equipo Scrum `SCT`
 * Criterios de Aceptación de Historias de Usuario `US`
@@ -645,17 +720,20 @@ Como la del Sprint `RSB` pero para el proyecto
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Herramientas
-* __Metodos de despliegue organizacional__
+
+* __Metodos de despldesplazamiento organizacional__
 * Plan de Comunicación
 
 ### Salidas
+
 * __Acuerdo de Entregables Funcionales `WDA`__
 * Entregables Funcionales `WD`
 * Lanzamientos de Productos
 
-## 19. Retrospectiva del Proyecto
+## 19. Retrospectiva del Proyecto `PRM`
 
 ### Entradas
+
 * __Equipo Scrum `SCT`__
 * Jefe Scrum Master `CSM`
 * Jefe Propietario del Producto `CPO`
@@ -663,10 +741,12 @@ Como la del Sprint `RSB` pero para el proyecto
 * Recomendaciones del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Herramientas
+
 * Reunión de Retrospectiva del Proyecto `PRM`
 * Experiencia del Cuerpo de Asesoramiento de SCRUM `SGB`
 
 ### Salidas
+
 * __Acciones de Mejora Acordadas `AAI`__
 * __Elementos de Acción Acordados y Fechas__
 * Elementos no funcionales propuestos para la Lista de Pendientes del Programa `Program PPB` y Lista Priorizada de Pendientes del Producto `Product PPB`
