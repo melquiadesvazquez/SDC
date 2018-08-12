@@ -169,6 +169,12 @@ Se actualiza en:
 
 ## Lista Priorizada de Pendientes del Producto (Prioritized Product Backlog) `Product PPB`
 
+Las `US` se priorizan segun:
+
+* Dependencias
+* Riesgo
+* Valor
+
 Se actualiza en:
 
 * Proceso 5. Creación de la Lista Priorizada de Pendientes del Producto `Product PPB`
@@ -222,6 +228,10 @@ Permiten identificar ampliamente las actividades que no agregan valor al proceso
 ## Riesgos identificados (Identified Risks) `IR`
 
 ## Criterios de Terminado (Done Criteria) `DC`
+Una serie de reglas aplicables a todas las historias de usuario `US` en un determinado sprint.
+
+## Criterios de Aceptación (Acceptance Criteria) `AC`
+Únicos en cada historia de usuario y no son un substituto de la lista de requerimientos.
 
 ## Entregables Aceptados (Accepted Deliverables) `AD`
 
@@ -235,11 +245,27 @@ Si los entregables no cumplen con los Criterios de Aceptación `DC` son rechazad
 
 Un acuerdo formal que documenta la finalización con éxito del Sprint
 
+# GLOSARIO
+
 ## Acciones de Mejora Acordadas (Agreed Actionable Improvements) `AAI`
 
 ## Desarrollo de capacidades con el Modelo Tuckman
 
 Formación, conflicto, normalización y desempeño (Forming, Storming, Norming, Performing)
+
+## Esquema de priorización MoSCoW
+
+* Es necesario (Must have)
+* Es recomendable (Should have)
+* Podría implementarse (Could have)
+* No lo queremos... quizá en un futuro (Won't have)
+
+## Análisis Kano (AURI)
+
+* Calidad atractiva (Exciters/Delighters)
+* Calidad unidimensional (Satisfiers)
+* Calidad requerida (Dissatisfiers)
+* Calidad indiferente (Indifferent)
 
 ## Teoría X e Y
 
@@ -247,6 +273,35 @@ Formación, conflicto, normalización y desempeño (Forming, Storming, Norming, 
 
 Describe el número de horas que los miembros de un Equipo Scrum trabajan exclusivamente en el desarrollo de los entregables del proyecto sin incluir ningún tiempo dedicado a otras actividades o a trabajo ajeno al proyecto
 
+## La Calidad de un proyecto
+
+* Se ve afectada por los cambios en alcance y tiempo
+* Disminuye si el tiempo se reduce mientras el alcance permanece igual
+* Disminuye si el alcance aumenta mientras el tiempo  permanece igual
+* Aumenta con Ritmo Sostenible
+
+## La Deuda Técnica, conocida también como deuda de diseño o deuda de código
+
+Es el trabajo al que los equipos dan menor prioridad; el trabajo que omiten o que no terminan a medida que trabajan en la creación de los principales entregables asociados al producto del proyecto. La deuda técnica se acumula y se debe saldar en el futuro.
+
+## Ciclo `PDCA`
+
+* Planificar (Planning): `Product PPB` y `US`
+* Hacer (Doing): `SD` y `DSM`
+* Verificar (Checking): `SRM` y `RSM`
+* Actuar (Act): Enviar `SD` y `PRM`
+
+## Procedimientos de Gestión de Riesgos
+
+* Identificación
+* Evaluación
+* Priorización
+* Mitigación
+* Comunicación
+
+## Diferencia entre riesgos y problemas
+
+Los riesgos requieren evaluación de probabilidad ya que pueden o no pasar. Los problemas ya están pasando
 
 # FASES
 ## I. Iniciación
