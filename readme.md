@@ -249,7 +249,7 @@ Un acuerdo formal que documenta la finalización con éxito del Sprint
 
 ## Acciones de Mejora Acordadas (Agreed Actionable Improvements) `AAI`
 
-## Desarrollo de capacidades con el Modelo Tuckman
+## Desarrollo de capacidades con el Modelo Tuckman `FSNP`
 
 Formación, conflicto, normalización y desempeño (Forming, Storming, Norming, Performing)
 
@@ -287,7 +287,7 @@ Es el trabajo al que los equipos dan menor prioridad; el trabajo que omiten o qu
 ## Ciclo `PDCA`
 
 * Planificar (Planning): `Product PPB` y `US`
-* Hacer (Doing): `SD` y `DSM`
+* Hacer (Doing): Crear `SD` y `DSM`
 * Verificar (Checking): `SRM` y `RSM`
 * Actuar (Act): Enviar `SD` y `PRM`
 
@@ -301,7 +301,21 @@ Es el trabajo al que los equipos dan menor prioridad; el trabajo que omiten o qu
 
 ## Diferencia entre riesgos y problemas
 
-Los riesgos requieren evaluación de probabilidad ya que pueden o no pasar. Los problemas ya están pasando
+Los riesgos requieren evaluación de probabilidad ya que pueden o no pasar. Los problemas ya están pasando.
+
+## Estructura de distribución de riesgos 
+
+* Financieros
+* Técnicos
+* Seguridad
+
+## Despunte basado en riesgo
+
+Experimentos que implican una investigación o hacer un prototipo para entender mejor los riesgos potenciales.
+
+## Velocidad del sprint anterior
+
+Puntos de historia o tiempo ideal
 
 # FASES
 ## I. Iniciación
@@ -519,7 +533,7 @@ Los riesgos requieren evaluación de probabilidad ya que pueden o no pasar. Los 
 
 ### Salidas
 * __Calendario de Lanzamiento `RPS`__
-* __Tamaño del Sprint__
+* __Duración del Sprint__
 * Clientes Objetivos para la Liberación
 * Lista Priorizada de Pendientes del Producto Refinada `Refined PPB`
 
@@ -624,7 +638,7 @@ Los riesgos requieren evaluación de probabilidad ya que pueden o no pasar. Los 
 ### Entradas
 * __Equipo Scrum Principal `SCT`__
 * __Lista de Tareas y su Esfuerzo Estimado__
-* __Tamaño del Sprint__
+* __Duración del Sprint__
 * Velocidad previa del Sprint
 * Dependencias
 * Calendario del equipo
